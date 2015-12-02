@@ -1,6 +1,6 @@
 # Vigenere Cipher
 
-Implement a Vigenere Cipher using JavaScript. You should be able to encode and decode a word when given a keyword. [Read the Wikipedia description here](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description
+Implement a Vigenere Cipher using JavaScript or Ruby. You should be able to encode and decode a word when given a keyword. [Read the Wikipedia description here](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description
 )
 
 A quick rundown of the steps:
@@ -26,3 +26,7 @@ keyword: lemonlemonle
 ```
 ciphertext: lxfopvefrnhr
 ```
+
+TLDR: Write a function or method that takes two arguments. One argument must be the message you'd like to encrypt. The other argument should be the keyword. The output of that function or method should be the encrpyted message(ciphertext above)
+
+Bonus: have the ability to decode an encrypted message with a keyword.
