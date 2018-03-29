@@ -1,3 +1,5 @@
+let [input, key, reverse] = [process.argv[2], process.argv[3], process.argv[4]];
+
 function vigCipherApply(toEncode, protokey, reverse = false) {
     let workingArray = toEncode.toLowerCase().split('');
     let key = protokey.toLowerCase();
@@ -16,4 +18,4 @@ function vigCipherApply(toEncode, protokey, reverse = false) {
     return result.join('');
 }
 
-console.log(vigCipherApply('attackatdawn'));
+console.log(vigCipherApply(input, key, reverse));
