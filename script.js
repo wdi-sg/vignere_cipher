@@ -56,12 +56,12 @@ let encrypt = (keyword,message) => {
 	console.log("key: " + key);
 	let keyIdx = getIdx(key);
 	let encryptedStr = sumStr(msgIdx,keyIdx);
-	console.log("encrypted message: " + encryptedStr);
 	return encryptedStr;
 }
 
 if(process.argv[2] == "vigEncrypt"){
 	console.log("keyword: " + process.argv[3]);
 	console.log("message: " + process.argv[4]);
-	encrypt(process.argv[3],process.argv[4]);
+	let output = encrypt(process.argv[3],process.argv[4]);
+	console.log("encrypted message: " + output);
 }
