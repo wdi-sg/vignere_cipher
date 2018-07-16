@@ -1,6 +1,6 @@
 # Vigenere Cipher
 
-Implement a Vigenere Cipher Ruby. You should be able to encode and decode a word when given a keyword. [Read the Wikipedia description here](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description
+Implement a Vigenere Cipher in Ruby. You should be able to encode and decode a word when given a keyword. [Read the Wikipedia description here](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description
 )
 
 A quick rundown of the steps:
